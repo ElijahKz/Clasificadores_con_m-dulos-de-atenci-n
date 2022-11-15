@@ -228,7 +228,7 @@ the standard SE. So,  could we  make it better. What about, if see the configura
 
 # GAN's
 ---
-<img class="img-results" src="./Results/GAN-example.jpg" width="auto" height="240">
+<img class="img-results" src="./Results/gan-example/GAN-example.jpg" width="auto" height="240">
 
 Now, we're gonna genereate new data from a GAN'S. Here we have some of the three thousend generated images.
 
@@ -237,6 +237,9 @@ Now, we're gonna genereate new data from a GAN'S. Here we have some of the three
 | New Data   | ![](./Results/gan-example/nike-generated.jpg) | ![](./Results/gan-example/converse-generated.jpg)     |  ![](./Results/gan-example/adidas-generated.jpg)   |
 
 Authors:
+
 Ivan sanclemente
+
 Sebastian amilkar
+
 Milmax J.
