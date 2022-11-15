@@ -204,11 +204,11 @@ def spatial_attention(input_t,kz=7):
 
 
 #### Resnet50:
-| Model  | Confussion Matrix | Accuracy  |  loss |
+| Model  | Nike | Converse  |  Adidas |
 | ---------|-------|----------|------------|
-| ResNet50    | ![](./Results/resnet50/confmatrix/matrixconf-resnet50.png) | ![](./Results/resnet50/accuracy/accuracy-valaccuracy.png)     |  ![](./Results/resnet50/loss/loss-valloss.png)   |
-| ResNet50 + SE    | ![](./Results/resnet50_se/confmatrix/matrixconf-resnet50.png) | ![](./Results/resnet50_se/accuracy/accuracy-valaccuracy.png)     |  ![](./Results/resnet50_se/loss/loss-valloss.png)   |
-| ResNet50 + Pre-SE    | ![](./Results/resnet50_pre_se/confmatrix/matrixconf-resnet50.png) | ![](./Results/resnet50_pre_se/accuracy/accuracy-valaccuracy.png)     |  ![](./Results/resnet50_pre_se/loss/loss-valloss.png)   |
-| ResNet50 + CBAM    | ![](./Results/resnet50_cbam/confmatrix/matrixconf-resnet50.png) | ![](./Results/resnet50_cbam/accuracy/accuracy-valaccuracy.png)     |  ![](./Results/resnet50_cbam/loss/loss-valloss.png)   |
+| ResNet50    | ![](./Results/resnet50/gradscam/nike_no_se.jpeg) | ![](./Results/resnet50/gradscam/converse_no_se.jpg)     |  ![](./Results/resnet50/gradscam/adidas_no_se.jpg)   |
+| ResNet50 + SE    | ![](./Results/resnet50_se/gradcam/nike_se.jpg) | ![](./Results/resnet50_se/gradcam/converse_se.jpg)     |  ![](./Results/resnet50_se/gradcam/adidas_se.jpg)   |
+| ResNet50 + Pre-SE    | ![](./Results/resnet50_pre_se/gradcam/nike_pre_se.jpg) | ![](./Results/resnet50_pre_se/gradcam/converse_pre_se.jpg)     |  ![](./Results/resnet50_pre_se/gradcam/adidas_pre_se.jpg)   |
+| ResNet50 + CBAM    | ![](./Results/resnet50_cbam/gradcam/nike_cbam.jpg) | ![](./Results/resnet50_cbam/gradcam/converse_cbam.jpg)   |  ![](./Results/resnet50_cbam/gradcam/adidas_cbam.jpg)   |
 
 
