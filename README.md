@@ -26,7 +26,6 @@ Download the .ipynb put it into a folder with your train and test folder from th
 Now let's see some code of the project and the summary of
 the metrics worked.
 
-- `aug_smooth=True`
 
 
 # Using GradCAM from Deep Learning with Python
@@ -193,14 +192,16 @@ def spatial_attention(input_t,kz=7):
 
 
 # Metrics and evaluating the explanations
-- `aug_smooth=True`
 
-## Visual Examples
+#### Resnet50:
 
 | Model | Confussion Matrix | Accuracy|loss |
 | ---------------------------------------------------------------|--------------------|-----------------------------------------------------------------------------|---------|
  ResNet50 | <img class="img-results" src="./Results/resnet50/confmatrix/matrixconf-resnet50.png" width="240" height="240"> | <img class="img-results" src="./Results/resnet50/accuracy/accuracy-valaccuracy.png" width="240" height="240"> | <img src="./Results/resnet50/loss/loss-valloss.png" width="240" height="240"> |
  ResNet50 + SE    | <img class="img-results" src="./Results/resnet50_se/confmatrix/matrixconf-resnet50.png" width="240" height="240">  | <img class="img-results" src="./Results/resnet50_se/accuracy/accuracy-valaccuracy.png" width="240" height="240"> | <img class="img-results" src="./Results/resnet50_se/loss/loss-valloss.png" width="240" height="240">  |
+ | ResNet50 + Pre-SE    | <img class="img-results" src="./Results/resnet50_pre_se/confmatrix/matrixconf-resnet50.png" width="240" height="240"> | <img class="img-results" src="./Results/resnet50_pre_se/accuracy/accuracy-valaccuracy.png" width="240" height="240"> | <img class="img-results" src="./Results/resnet50_pre_se/loss/loss-valloss.png" width="240" height="240"> |
+ | ResNet50 + CBAM    | <img class="img-results" src="./Results/resnet50_cbam/confmatrix/matrixconf-resnet50.png" width="240" height="240"> | <img class="img-results" src="./Results/resnet50_cbam/accuracy/accuracy-valaccuracy.png" width="240" height="240">  |  <img class="img-results" src="./Results/resnet50_cbam/loss/loss-valloss.png" width="240" height="240">  |
+
 
 #### Resnet50:
 | Model  | Confussion Matrix | Accuracy  |  loss |
