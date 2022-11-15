@@ -226,9 +226,9 @@ the standard SE. So,  could we  make it better. What about, if see the configura
 | ResNet50 + SE    | ![](./Results/resnet50_se/gradcam/nike_jordan_se.jpg) | ![](./Results/resnet50_se/gradcam/converse_1_se.jpg)     |  ![](./Results/resnet50_se/gradcam/adidas_1_se.jpg)   |
 
 
-# GAN's
+# GAN's data aumentation
 ---
-<img class="img-results" src="./Results/gan-example/GAN-example.jpg" width="auto" height="240">
+
 
 Now, we're gonna genereate new data from a GAN'S. Here we have some of the three thousend generated images.
 
