@@ -215,3 +215,16 @@ Now let's gonna see the result of what exactly our model are paying attetion to 
 | ResNet50 + CBAM    | ![](./Results/resnet50_cbam/gradcam/nike_cbam.jpg) | ![](./Results/resnet50_cbam/gradcam/converse_cbam.jpg)   |  ![](./Results/resnet50_cbam/gradcam/adidas_cbam.jpg)   |
 
 
+# We can make it better
+---
+ We have 66% - 67% on accuracy in the validation training set. Whitout Using no attention modules, and using preblock attention module. Also we have a similar result with cbam. However on other hand we have, 72% on accuracy 
+ in validation trainig set result with
+the standard SE. So,  could we  make it better. What about, if see the configuration on SE and then we use it with one of the freebies strategies Example Data aumentation with GAN's.  First, let's see the result with other sample data set.
+
+| ResNet50 + SE    | ![](./Results/resnet50_se/gradcam/nike_jordan_se.jpg) | ![](./Results/resnet50_se/gradcam/converse_1_se.jpg)     |  ![](./Results/resnet50_se/gradcam/adidas_1_se.jpg)   |
+
+
+Authors:
+Ivan sanclemente
+Sebastian amilkar
+Milmax J.
