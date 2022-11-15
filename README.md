@@ -192,7 +192,7 @@ def spatial_attention(input_t,kz=7):
 
 
 # Metrics and evaluating 
-
+Here we're gonna see our curves of training and confussion matrix. 
 #### Resnet50:
 
 | Model | Confussion Matrix | Accuracy|loss |
@@ -203,7 +203,9 @@ def spatial_attention(input_t,kz=7):
  | ResNet50 + CBAM    | <img class="img-results" src="./Results/resnet50_cbam/confmatrix/matrixconf-resnet50.png" width="240" height="240"> | <img class="img-results" src="./Results/resnet50_cbam/accuracy/accuracy-valaccuracy.png" width="240" height="240">  |  <img class="img-results" src="./Results/resnet50_cbam/loss/loss-valloss.png" width="240" height="240">  |
 
 
-# GRADCAM 
+# Using GradCam
+---
+Now let's gonna see the result of what exactly our model are paying attetion to clasiffier our samples. 
 
 | Model  | Nike | Converse  |  Adidas |
 | ---------|-------|----------|------------|
