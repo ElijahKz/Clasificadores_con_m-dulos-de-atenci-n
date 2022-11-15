@@ -195,6 +195,13 @@ def spatial_attention(input_t,kz=7):
 # Metrics and evaluating the explanations
 - `aug_smooth=True`
 
+## Visual Examples
+
+| What makes the network think the image label is 'pug, pug-dog' | What makes the network think the image label is 'tabby, tabby cat' | Combining Grad-CAM with Guided Backpropagation for the 'pug, pug-dog' class |
+| ---------------------------------------------------------------|--------------------|-----------------------------------------------------------------------------|
+ <img src="./Results/resnet50/confmatrix/matrixconf-resnet50.png" width="256" height="256"> | <img src="./Results/resnet50/accuracy/accuracy-valaccuracy.png" width="256" height="256"> | <img src="./Results/resnet50/loss/loss-valloss.png" width="256" height="256"> |
+
+
 #### Resnet50:
 | Model  | Confussion Matrix | Accuracy  |  loss |
 | ---------|-------|----------|------------|
