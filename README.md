@@ -20,6 +20,15 @@ different methods to compare the results.
 
 ----------
 
+# How to run this repo
+Download the .ipynb put it into a folder with your train and test folder from the tennis dataset. Upload it to your colab/jupyter enviroment and setup your paths for the folders/files that are going to be automaticly created for the differentes weights en metrics. 
+
+Now let's see some code of the project and the summary of
+the metrics worked.
+
+- `aug_smooth=True`
+
+
 # Using GradCAM from Deep Learning with Python
 
 ```python
@@ -181,3 +190,17 @@ def spatial_attention(input_t,kz=7):
     return cbam_feat
 ```
 ----------
+
+
+# Metrics and evaluating the explanations
+- `aug_smooth=True`
+
+
+#### Resnet50:
+| Model  | Confussion Matrix | Accuracy  |  loss |
+| ---------|-------|----------|------------|
+| ResNet50    | ![](./Results/resnet50/confmatrix/matrixconf-resnet50.png) | ![](./Results/resnet50/accuracy/accuracy-valaccuracy.png)     |  ![](./Results/resnet50/loss/loss-valloss.png)   |
+| ResNet50 + SE    | ![](./examples/dog_cat.jfif?raw=true) | ![](./examples/resnet50_cat_gradcam_cam.jpg?raw=true)     |  ![](./examples/resnet50_cat_ablationcam_cam.jpg?raw=true)   |
+| ResNet50 + Pre-SE    | ![](./examples/dog_cat.jfif?raw=true) | ![](./examples/resnet50_cat_gradcam_cam.jpg?raw=true)     |  ![](./examples/resnet50_cat_ablationcam_cam.jpg?raw=true)   |
+
+| ResNet50 + CBAM    | ![](./examples/dog_cat.jfif?raw=true) | ![](./examples/resnet50_cat_gradcam_cam.jpg?raw=true)     |  ![](./examples/resnet50_cat_ablationcam_cam.jpg?raw=true)   |
