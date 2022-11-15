@@ -201,5 +201,5 @@ def spatial_attention(input_t,kz=7):
 | ---------|-------|----------|------------|
 | ResNet50    | ![](./Results/resnet50/confmatrix/matrixconf-resnet50.png) | ![](./Results/resnet50/accuracy/accuracy-valaccuracy.png)     |  ![](./Results/resnet50/loss/loss-valloss.png)   |
 | ResNet50 + SE    | ![](./Results/resnet50_se/confmatrix/matrixconf-resnet50.png) | ![](./Results/resnet50_se/accuracy/accuracy-valaccuracy.png)     |  ![](./Results/resnet50_se/loss/loss-valloss.png)   |
-| ResNet50 + Pre-SE    | ![](./examples/dog_cat.jfif?raw=true) | ![](./examples/resnet50_cat_gradcam_cam.jpg?raw=true)     |  ![](./examples/resnet50_cat_ablationcam_cam.jpg?raw=true)   |
+| ResNet50 + Pre-SE    | ![](./Results/resnet50_pre_se/confmatrix/matrixconf-resnet50.png) | ![](./Results/resnet50_pre_se/accuracy/accuracy-valaccuracy.png)     |  ![](./Results/resnet50_pre_se/loss/loss-valloss.png)   |
 | ResNet50 + CBAM    | ![](./examples/dog_cat.jfif?raw=true) | ![](./examples/resnet50_cat_gradcam_cam.jpg?raw=true)     |  ![](./examples/resnet50_cat_ablationcam_cam.jpg?raw=true)   |
