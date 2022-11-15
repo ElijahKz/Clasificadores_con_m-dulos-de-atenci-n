@@ -199,7 +199,7 @@ def spatial_attention(input_t,kz=7):
 
 | Model | Confussion Matrix | Accuracy|loss |
 | ---------------------------------------------------------------|--------------------|-----------------------------------------------------------------------------|---------|
- ResNet50 | <img src="./Results/resnet50/confmatrix/matrixconf-resnet50.png" width="600" height="600"> | <img src="./Results/resnet50/accuracy/accuracy-valaccuracy.png" width="600" height="600"> | <img src="./Results/resnet50/loss/loss-valloss.png" width="600" height="600"> |
+ ResNet50 | <img src="./Results/resnet50/confmatrix/matrixconf-resnet50.png" max-width="300" max-height="300"> | <img src="./Results/resnet50/accuracy/accuracy-valaccuracy.png" max-width="300" max-height="300"> | <img src="./Results/resnet50/loss/loss-valloss.png" max-width="300" max-height="300"> |
 
 
 #### Resnet50:
