@@ -197,9 +197,9 @@ def spatial_attention(input_t,kz=7):
 
 ## Visual Examples
 
-| What makes the network think the image label is 'pug, pug-dog' | What makes the network think the image label is 'tabby, tabby cat' | Combining Grad-CAM with Guided Backpropagation for the 'pug, pug-dog' class |
-| ---------------------------------------------------------------|--------------------|-----------------------------------------------------------------------------|
- <img src="./Results/resnet50/confmatrix/matrixconf-resnet50.png" width="256" height="256"> | <img src="./Results/resnet50/accuracy/accuracy-valaccuracy.png" width="256" height="256"> | <img src="./Results/resnet50/loss/loss-valloss.png" width="256" height="256"> |
+| Model | Confussion Matrix | Accuracy|loss |
+| ---------------------------------------------------------------|--------------------|-----------------------------------------------------------------------------|---------|
+ ResNet50 | <img src="./Results/resnet50/confmatrix/matrixconf-resnet50.png" width="600" height="600"> | <img src="./Results/resnet50/accuracy/accuracy-valaccuracy.png" width="600" height="600"> | <img src="./Results/resnet50/loss/loss-valloss.png" width="600" height="600"> |
 
 
 #### Resnet50:
