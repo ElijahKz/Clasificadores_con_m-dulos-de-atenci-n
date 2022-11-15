@@ -191,7 +191,7 @@ def spatial_attention(input_t,kz=7):
 ----------
 
 
-# Metrics and evaluating the explanations
+# Metrics and evaluating 
 
 #### Resnet50:
 
@@ -203,7 +203,8 @@ def spatial_attention(input_t,kz=7):
  | ResNet50 + CBAM    | <img class="img-results" src="./Results/resnet50_cbam/confmatrix/matrixconf-resnet50.png" width="240" height="240"> | <img class="img-results" src="./Results/resnet50_cbam/accuracy/accuracy-valaccuracy.png" width="240" height="240">  |  <img class="img-results" src="./Results/resnet50_cbam/loss/loss-valloss.png" width="240" height="240">  |
 
 
-#### Resnet50:
+# GRADCAM 
+
 | Model  | Nike | Converse  |  Adidas |
 | ---------|-------|----------|------------|
 | ResNet50    | ![](./Results/resnet50/gradscam/nike_no_se.jpeg) | ![](./Results/resnet50/gradscam/converse_no_se.jpg)     |  ![](./Results/resnet50/gradscam/adidas_no_se.jpg)   |
