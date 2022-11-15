@@ -199,8 +199,9 @@ def spatial_attention(input_t,kz=7):
 
 | Model | Confussion Matrix | Accuracy|loss |
 | ---------------------------------------------------------------|--------------------|-----------------------------------------------------------------------------|---------|
- ResNet50 | <img class="img-results" src="./Results/resnet50/confmatrix/matrixconf-resnet50.png"  > | <img class="img-results" src="./Results/resnet50/accuracy/accuracy-valaccuracy.png" > | <img class="img-results" src="./Results/resnet50/loss/loss-valloss.png" > |
-
+ ResNet50 | <img class="img-results" src="./Results/resnet50/confmatrix/matrixconf-resnet50.png" width="240" height="240"> | <img class="img-results" src="./Results/resnet50/accuracy/accuracy-valaccuracy.png" width="240" height="240"> | <img src="./Results/resnet50/loss/loss-valloss.png" width="240" height="240"> |
+| ---------------------------------------------------------------|--------------------|-----------------------------------------------------------------------------|---------|
+ ResNet50 + SE    | <img class="img-results" src="./Results/resnet50_se/confmatrix/matrixconf-resnet50.png" width="240" height="240">  | <img class="img-results" src="./Results/resnet50_se/accuracy/accuracy-valaccuracy.png" width="240" height="240"> | <img class="img-results" src="./Results/resnet50_se/loss/loss-valloss.png" width="240" height="240">  |
 
 #### Resnet50:
 | Model  | Confussion Matrix | Accuracy  |  loss |
@@ -211,11 +212,3 @@ def spatial_attention(input_t,kz=7):
 | ResNet50 + CBAM    | ![](./Results/resnet50_cbam/confmatrix/matrixconf-resnet50.png) | ![](./Results/resnet50_cbam/accuracy/accuracy-valaccuracy.png)     |  ![](./Results/resnet50_cbam/loss/loss-valloss.png)   |
 
 
-<style>
-@media only screen and (min-width: 992px) {
-  .img-results{
-    width:300;
-    height:300;
-  }
-}
-</style>
